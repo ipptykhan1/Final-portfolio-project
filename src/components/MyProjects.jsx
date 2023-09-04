@@ -1,5 +1,5 @@
 import dragon from '../assets/portfolio/dragon.png';
-
+import aesop from '../assets/portfolio/Aesop.png';
 const MyProjects = () => {
     const projects = [
         {
@@ -8,7 +8,12 @@ const MyProjects = () => {
           link: 'https://crypto-info-api.cyclic.app/',
           repo: 'https://github.com/rahulkarda/crypto-info-api'
         },
-       
+        {
+          id: 2,
+          src: aesop,
+          link: 'https://64f44aeacba86e79e69dc4ba--gilded-scone-53de0b.netlify.app/',
+          repo: 'https://github.com/ipptykhan1/AE-soap-project'
+        },
         
       ];
     
